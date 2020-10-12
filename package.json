@@ -4,7 +4,7 @@
   "description": "javascript library that helps generating identifiers and various random strings",
   "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --require babel-core/register",
     "build": "babel ./src -d ./lib"
   },
   "repository": {
@@ -26,6 +26,8 @@
   "homepage": "https://github.com/svladimirovich/string-generator#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
   }
 }
