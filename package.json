@@ -1,0 +1,26 @@
+{
+  "name": "string-generator",
+  "version": "0.0.1",
+  "description": "javascript library that helps generating identifiers and various random strings",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svladimirovich/string-generator.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "string",
+    "generation",
+    "javascript"
+  ],
+  "author": "Mikser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/svladimirovich/string-generator/issues"
+  },
+  "homepage": "https://github.com/svladimirovich/string-generator#readme"
+}
