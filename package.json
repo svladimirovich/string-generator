@@ -2,10 +2,10 @@
   "name": "string-mixer",
   "version": "0.0.2",
   "description": "javascript library that helps generating identifiers and various random strings",
-  "main": "lib/index.js",
+  "main": "build/index.js",
   "scripts": {
     "test": "mocha --require babel-core/register",
-    "build": "babel ./src -d ./lib",
+    "build": "babel ./src -d ./build",
     "prepublishOnly": "npm run build"
   },
   "repository": {
@@ -19,7 +19,7 @@
     "generation",
     "javascript"
   ],
-  "author": "Mikser",
+  "author": "svladimirovich",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/svladimirovich/string-mixer/issues"
