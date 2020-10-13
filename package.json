@@ -1,8 +1,8 @@
 {
   "name": "string-mixer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "javascript library that helps generating identifiers and various random strings",
-  "main": "build/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha --require babel-core/register",
     "build": "babel ./src -d ./lib",
